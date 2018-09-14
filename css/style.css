@@ -9266,7 +9266,8 @@ a:hover {
   .cases__info {
     width: 100%; }
   .cases__bg {
-    width: 100%; } }
+    width: 100%;
+    left: 0; } }
 @-webkit-keyframes up {
   100% {
     -webkit-transform: translateY(0);
