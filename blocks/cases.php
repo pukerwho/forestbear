@@ -23,7 +23,7 @@
 					    	<a href="<?php the_permalink(); ?>">Подробнее</a></div>
 						</div>
 						<div class="cases__bg"></div>
-						<div class="cases__img p-5">
+						<div class="cases__img p-5 pc-show">
 							<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="">
 						</div>
 					</div>

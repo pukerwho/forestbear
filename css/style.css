@@ -9244,6 +9244,12 @@ li {
 a:hover {
   text-decoration: none; }
 
+.pc-show {
+  display: block; }
+
+.mobile-show {
+  display: none; }
+
 .relative {
   position: relative; }
 
