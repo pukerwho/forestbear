@@ -9256,6 +9256,17 @@ a:hover {
 .btn a {
   color: #ffffff; }
 
+@media (max-width: 576px) {
+  .pc-show {
+    display: none !important; }
+
+  .mobile-show {
+    display: block !important; }
+
+  .cases__info {
+    width: 100%; }
+  .cases__bg {
+    width: 100%; } }
 @-webkit-keyframes up {
   100% {
     -webkit-transform: translateY(0);
