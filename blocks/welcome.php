@@ -15,7 +15,7 @@
 					</div>
 					<div class="email mb-2">
 						<i class="fas fa-envelope"></i>
-						<a href="mailto:wemodern@gmail.com" class="hover-link">wemodern@gmail.com</a>	
+						<a href="mailto:web.wemodern@gmail.com" class="hover-link">web.wemodern@gmail.com</a>	
 					</div>
 					<div class="telegram mb-2">
 						<i class="fab fa-telegram-plane"></i>
