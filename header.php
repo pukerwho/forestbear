@@ -22,17 +22,28 @@
       <div class="row">
         <div class="col-md-12">
           <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#"><span class="lightdarkblack font-weight-bold">WeModern</span> |<span class="lightdarkblack font-weight-light"> Создание сайтов</span></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-              <div class="menu">
-                <?php 
-                  wp_nav_menu( array(
-                    'menu'            => 'MainMenu', 
-                  ))
-                ?>
+            <a class="navbar-brand" href="#"><span class="lightdarkblack font-weight-bold">WeModern</span> <span class="mobile-none">|</span><span class="lightdarkblack font-weight-light mobile-none"> Создание сайтов</span></a>
+            <div class="headermenu">
+              <div class="pc-show">
+                <div class="menu">
+                  <?php 
+                    wp_nav_menu( array(
+                      'menu'            => 'MainMenu', 
+                    ))
+                  ?>
+                </div>
+              </div>
+              <div class="mobile-show">
+                <div class="toogle-menu"></div>
+                <div class="slide-menu">
+                  <div class="menu text-center">
+                    <?php 
+                      wp_nav_menu( array(
+                        'menu'            => 'MainMenu', 
+                      ))
+                    ?>
+                  </div>
+                </div>
               </div>
             </div>
           </nav>
