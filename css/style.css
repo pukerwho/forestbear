@@ -9287,6 +9287,9 @@ a:hover {
   .mobile-none {
     display: none !important; }
 
+  .navbar {
+    justify-content: space-between !important; }
+
   .navbar-brand {
     padding-bottom: 0; }
 
