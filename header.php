@@ -36,7 +36,7 @@
               <div class="mobile-show">
                 <div class="toogle-menu"></div>
                 <div class="slide-menu">
-                  <div class="menu text-center">
+                  <div class="menu">
                     <?php 
                       wp_nav_menu( array(
                         'menu'            => 'MainMenu', 
