@@ -9287,9 +9287,6 @@ a:hover {
   .mobile-none {
     display: none !important; }
 
-  .navbar {
-    justify-content: space-between !important; }
-
   .navbar-brand {
     padding-bottom: 0; }
 
@@ -9491,6 +9488,9 @@ a:hover {
     border-left-color: #9e9e9e; } }
 a.navbar-brand {
   color: #535353; }
+
+.navbar {
+  justify-content: space-between !important; }
 
 .menu ul {
   margin-bottom: 0;
