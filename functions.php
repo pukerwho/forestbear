@@ -51,6 +51,7 @@ add_action( 'wp_enqueue_scripts', 'theme_name_scripts' );
 function theme_name_scripts() {
     wp_enqueue_style( 'editor-style', get_stylesheet_directory_uri() . '/css/style.css' );
     wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js');
+    wp_enqueue_script( 'mixitup', get_template_directory_uri() . '/js/mixitup.min.js');
     wp_register_script( 'loadmore', get_stylesheet_directory_uri() . '/js/loadmore.js', array('jquery') );
  
 
@@ -141,6 +142,17 @@ function your_prefix_get_meta_box( $meta_boxes ) {
             'type'             => 'image',
             'force_delete'     => false,
             'max_file_uploads' => 1,
+          ),
+          array(
+            'name'             => 'Категория',
+            'id' => $prefix . 'portfolio-cat',
+            'type'    => 'checkbox_list',
+            // Options of checkboxes, in format 'value' => 'Label'
+            'options' => array(
+                'create'       => 'Создание сайта',
+                'seo' => 'SEO-продвижение',
+                'smm'        => 'SMM-продвижение',
+            ),
           ),
         ),
     );

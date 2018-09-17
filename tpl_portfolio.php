@@ -18,12 +18,23 @@ Template Name: Портфолио
 		</div>
 	</div>
 	<div class="bg-white">
-		<div class="container portfolio py-5">
+		<div class="container container-mix portfolio py-5">
+			<div class="row portfolio__filter mb-5">
+				<div class="col-md-12">
+					<ul class="d-flex justify-content-center">
+						<li class="mr-4"><a href="#" data-mixitup-control data-filter="all">Все работы</a></li>
+						<li class="mr-4"><a href="#" data-mixitup-control data-filter=".create">Создание сайтов</a></li>
+						<li class="mr-4"><a href="#" data-mixitup-control data-filter=".seo">SEO-продвижение</a></li>
+						<li><a href="#" data-filter=".smm">Продвижение в соцсетях</a></li>
+					</ul>
+				</div>
+			</div>
 			<div class="row mb-5">
 				<?php 
 		    $custom_query = new WP_Query( array( 'post_type' => 'portfolio' ) );
 		    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-		    <div class="col-md-4 p-0">
+		    <div class="col-md-4 p-0 mix <?php $cats = rwmb_meta( 'meta-portfolio-cat' );
+					foreach ( $cats as $cat ) { echo $cat; } ?>">
 					<div class="portfolio__item">
 						<a href="<?php echo rwmb_meta( 'meta-portfolio-link' ); ?>">
 							<div class="portfolio__item-absolute"></div>
@@ -53,5 +64,5 @@ Template Name: Портфолио
 		</div>
 	</div>
 </div>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
 <?php get_footer(); ?>
