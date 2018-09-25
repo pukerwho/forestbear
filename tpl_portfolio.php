@@ -31,7 +31,7 @@ Template Name: Портфолио
 			</div>
 			<div class="row mb-5">
 				<?php 
-		    $custom_query = new WP_Query( array( 'post_type' => 'portfolio' ) );
+		    $custom_query = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => -1 ) );
 		    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 		    <div class="col-md-4 p-0 mix <?php $cats = rwmb_meta( 'meta-portfolio-cat' );
 					foreach ( $cats as $cat ) { echo $cat; } ?>">
