@@ -41,7 +41,7 @@ Template Name: Портфолио
 							<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" class="portfolio__item-bg">
 							<div class="portfolio__item-logo">
 								<?php 
-									rwmb_the_value( 'meta-portfolio-logo', array( 'size' => 'thumbnail' ) );
+									rwmb_the_value( 'meta-portfolio-logo' );
 								?>
 							</div>
 							<div class="portfolio__item-content">
