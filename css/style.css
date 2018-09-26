@@ -9126,6 +9126,7 @@ a.hover-link:hover {
       z-index: 5;
       overflow: hidden; }
       .portfolio__item-logo img {
+        width: 100%;
         display: block;
         -webkit-transform: translateY(0%);
         -ms-transform: translateY(0%);
