@@ -112,6 +112,28 @@ function create_post_type() {
       'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
     )
   );
+  register_post_type( 'reviews',
+    array(
+      'labels' => array(
+          'name' => __( 'Отзывы' ),
+          'singular_name' => __( 'Отзыв' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+    )
+  );
+  register_post_type( 'vacancies',
+    array(
+      'labels' => array(
+          'name' => __( 'Вакансии' ),
+          'singular_name' => __( 'Вакансия' )
+      ),
+      'public' => true,
+      'has_archive' => true,
+      'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
+    )
+  );
 }
 add_action( 'init', 'create_post_type' );
 

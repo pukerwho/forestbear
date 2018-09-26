@@ -29,11 +29,11 @@
 							Поддержка
 						</div>
 						<div class="footer-link">
-							<li><a href="#">Почитайте F.A.Q</a></li>
-							<li><a href="#">Бесплатный хостинг</a></li>
-							<li><a href="#">SEO-продвижение</a></li>
-							<li><a href="#">Наши правила</a></li>
-							<li><a href="#">Манифест</a></li>
+							<li><a href="/faq">Почитайте F.A.Q</a></li>
+							<li><a href="/hosting">Бесплатный хостинг</a></li>
+							<li><a href="/seo">SEO-продвижение</a></li>
+							<li><a href="/rules">Наши правила</a></li>
+							<li><a href="/manifest">Манифест</a></li>
 						</div>
 					</div>
 					<div class="col-md-2 mb-5">
@@ -41,14 +41,14 @@
 							Информация
 						</div>
 						<div class="footer-link">
-							<li><a href="#">О нас</a></li>
-							<li><a href="#">Вакансии</a></li>
-							<li><a href="#">Отзывы</a></li>
+							<li><a href="/about">О нас</a></li>
+							<li><a href="/vacancies">Вакансии</a></li>
+							<li><a href="/reviews">Отзывы</a></li>
 							<li><a href="#">Успехи</a></li>
-							<li><a href="#">Наш блог</a></li>
+							<li><a href="/blog">Наш блог</a></li>
 						</div>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3 mb-5">
 						<div class="footer-heading text-uppercase">
 							Рассылка
 						</div>
