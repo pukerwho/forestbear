@@ -2,7 +2,7 @@
     <footer>
 			<div class="container">
 				<div class="row">
-					<div class="col-md-4">
+					<div class="col-md-4 mb-5">
 						<div class="footer-heading text-uppercase">
 							О Нас
 						</div>
@@ -24,7 +24,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-2 offset-md-1">
+					<div class="col-md-2 offset-md-1 mb-5">
 						<div class="footer-heading text-uppercase">
 							Поддержка
 						</div>
@@ -36,7 +36,7 @@
 							<li><a href="#">Манифест</a></li>
 						</div>
 					</div>
-					<div class="col-md-2">
+					<div class="col-md-2 mb-5">
 						<div class="footer-heading text-uppercase">
 							Информация
 						</div>
