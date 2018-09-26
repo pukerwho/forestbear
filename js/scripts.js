@@ -25,3 +25,8 @@ mixer.show()
       }
     });
   });
+
+$.get("https://ipinfo.io", function (response) {
+    var check_country = response.ip;
+    console.log(check_country);
+}, "jsonp");
