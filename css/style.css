@@ -9092,6 +9092,14 @@ a.hover-link:hover {
       -webkit-transform: translateY(0%);
       -ms-transform: translateY(0%);
       transform: translateY(0%); }
+      .portfolio__item :hover .portfolio__item-show-hide:before {
+        width: 100%;
+        -webkit-transition: width 0.4s;
+        -o-transition: width 0.4s;
+        transition: width 0.4s;
+        -webkit-transition-delay: 0.3s;
+        -o-transition-delay: 0.3s;
+        transition-delay: 0.3s; }
     .portfolio__item :hover .portfolio__item-logo img {
       -webkit-transform: translateY(-120%);
       -ms-transform: translateY(-120%);
@@ -9181,6 +9189,14 @@ a.hover-link:hover {
       z-index: 5;
       overflow: hidden;
       padding: .3125rem; }
+      .portfolio__item-site .portfolio__item-show-hide:before {
+        content: '';
+        width: 0%;
+        height: 6px;
+        position: absolute;
+        left: 0;
+        bottom: -5px;
+        background-color: #52ae4a; }
     .portfolio__item-show-hide {
       display: block;
       transition-property: transform,color,-webkit-transform;

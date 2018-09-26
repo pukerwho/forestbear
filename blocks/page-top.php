@@ -1,4 +1,4 @@
-<div class="container pt-5">
+<div class="container py-5">
 	<div class="row">
 		<div class="col-md-12">
 			<h1 class="text-center"><?php the_title(); ?></h1>
