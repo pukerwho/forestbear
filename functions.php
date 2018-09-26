@@ -200,6 +200,22 @@ function your_prefix_get_meta_box( $meta_boxes ) {
         ),
     );
 
+    $meta_boxes[] = array(
+        'id' => 'page-info',
+        'title' => esc_html__( 'Информация', 'wemodern-page' ),
+        'post_types' => array( 'page' ),
+        'context' => 'advanced',
+        'priority' => 'default',
+        'autosave' => true,
+        'fields' => array(
+          array(
+            'id' => $prefix . 'page-more',
+            'type' => 'textarea',
+            'name' => esc_html__( 'Дополнительная Информация', 'wemodern-page' ),
+          ),
+        ),
+    );
+
     return $meta_boxes;
 }
 add_filter( 'rwmb_meta_boxes', 'your_prefix_get_meta_box' );
