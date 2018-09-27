@@ -48,6 +48,15 @@
 				<?php endwhile; endif; ?>
 			</div>
 		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 p-0">
+					<div class="text-center">
+						<a href="/reviews"><div class="btn btn-outline-success">Больше отзывов</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 <?php get_footer(); ?> 
