@@ -12,7 +12,7 @@ Template Name: Отзывы
 		<div class="container py-5">
 			<div class="reviews">
 				<?php 
-				  $custom_query = new WP_Query( array( 'post_type' => 'reviews' ) );
+				  $custom_query = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => -1 ) );
 				  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 				  <div class="review">
 				  	<div class="review__cat">
