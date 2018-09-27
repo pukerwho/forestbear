@@ -26,5 +26,22 @@
 		</div>
 	</section>
 	<?php get_template_part( 'blocks/cases', 'default' ); ?>
+	<div class="container py-5">
+		<div class="reviews">
+			<?php 
+			  $custom_query = new WP_Query( array( 
+			  	'post_type' => 'reviews', 'posts_per_page' => 3, 'meta_query' => array(
+			  		array(
+							'key'     => 'meta-review-popular',
+							'value'   => 1,
+							'compare' => '=',
+						),
+					)
+			  ));
+			  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+			  <?php get_template_part( 'blocks/reviews', 'default' ); ?>
+			<?php endwhile; endif; ?>
+		</div>
+	</div>
 </section>
 <?php get_footer(); ?> 

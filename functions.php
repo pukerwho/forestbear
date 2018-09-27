@@ -240,6 +240,12 @@ function your_prefix_get_meta_box( $meta_boxes ) {
                 'smm'        => 'SMM-продвижение',
             ),
           ),
+          array(
+            'id' => $prefix . 'review-popular',
+            'type' => 'checkbox',
+            'name' => esc_html__( 'На главную?', 'vvk' ),
+            'std'  => 0,
+          ),
         ),
     );
 
