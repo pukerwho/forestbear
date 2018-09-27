@@ -227,7 +227,7 @@ function your_prefix_get_meta_box( $meta_boxes ) {
           ),
           array(
             'id' => $prefix . 'review-video',
-            'type' => 'custom_html',
+            'type' => 'textarea',
             'name' => esc_html__( 'Код видео', 'wemodern-review' ),
           ),
           array(
