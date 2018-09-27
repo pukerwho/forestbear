@@ -5,6 +5,12 @@ $('.toogle-menu').on('click', function(e) {
   $('.menu li').toggleClass('animate-left');
 });
 
+
+$.get("https://ipinfo.io", function (response) {
+    var check_country = response.country;
+    console.log(check_country);
+}, "jsonp");
+
 var containerEl = document.querySelector('.container-mix');
 var mixer = mixitup(containerEl, {
   animation: {
@@ -25,8 +31,3 @@ mixer.show()
       }
     });
   });
-
-$.get("https://ipinfo.io", function (response) {
-    var check_country = response.ip;
-    console.log(check_country);
-}, "jsonp");

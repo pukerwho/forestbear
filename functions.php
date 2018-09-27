@@ -201,6 +201,65 @@ function your_prefix_get_meta_box( $meta_boxes ) {
     );
 
     $meta_boxes[] = array(
+        'id' => 'review-info',
+        'title' => esc_html__( 'Информация', 'wemodern-review' ),
+        'post_types' => array( 'reviews' ),
+        'context' => 'advanced',
+        'priority' => 'default',
+        'autosave' => true,
+        'fields' => array(
+          array(
+            'name'             => 'Аватарка',
+            'id' => $prefix . 'review-avatar',
+            'type'             => 'image',
+            'force_delete'     => false,
+            'max_file_uploads' => 1,
+          ),
+          array(
+            'id' => $prefix . 'review-name',
+            'type' => 'text',
+            'name' => esc_html__( 'Имя автора', 'wemodern-review' ),
+          ),
+          array(
+            'id' => $prefix . 'review-who',
+            'type' => 'text',
+            'name' => esc_html__( 'Должность автора', 'wemodern-review' ),
+          ),
+          array(
+            'id' => $prefix . 'review-video',
+            'type' => 'custom_html',
+            'name' => esc_html__( 'Код видео', 'wemodern-review' ),
+          ),
+          array(
+            'name'             => 'Категория',
+            'id' => $prefix . 'review-cat',
+            'type'    => 'select',
+            'options' => array(
+                'create'       => 'Создание сайта',
+                'seo' => 'SEO-продвижение',
+                'smm'        => 'SMM-продвижение',
+            ),
+          ),
+        ),
+    );
+
+    $meta_boxes[] = array(
+        'id' => 'vacancy-info',
+        'title' => esc_html__( 'Информация', 'wemodern-vacancy' ),
+        'post_types' => array( 'vacancies' ),
+        'context' => 'advanced',
+        'priority' => 'default',
+        'autosave' => true,
+        'fields' => array(
+          array(
+            'id' => $prefix . 'vacancy-desc',
+            'type' => 'textarea',
+            'name' => esc_html__( 'Коротко о вакансии', 'wemodern-vacancy' ),
+          ),
+        ),
+    );
+
+    $meta_boxes[] = array(
         'id' => 'page-info',
         'title' => esc_html__( 'Информация', 'wemodern-page' ),
         'post_types' => array( 'page' ),
