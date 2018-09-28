@@ -226,6 +226,11 @@ function your_prefix_get_meta_box( $meta_boxes ) {
             'name' => esc_html__( 'Должность автора', 'wemodern-review' ),
           ),
           array(
+            'id' => $prefix . 'review-from',
+            'type' => 'text',
+            'name' => esc_html__( 'Город', 'wemodern-review' ),
+          ),
+          array(
             'id' => $prefix . 'review-video',
             'type' => 'textarea',
             'name' => esc_html__( 'Код видео', 'wemodern-review' ),
