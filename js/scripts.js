@@ -14,7 +14,8 @@ $.get("https://ipinfo.io", function (response) {
     } else {
       $('.from-ua').css({'display': 'none'});
       $('.not-from-ua').css({'display': 'inline-block'});
-    }
+    };
+    console.log(check_country);
 }, "jsonp");
 
 var containerEl = document.querySelector('.container-mix');
