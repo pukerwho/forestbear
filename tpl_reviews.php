@@ -14,7 +14,7 @@ Template Name: Отзывы
 				<?php 
 				  $custom_query = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => -1 ) );
 				  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-				  <?php get_template_part( 'blocks/reviews', 'default' ); ?>
+				  	<?php get_template_part( 'blocks/reviews', 'default' ); ?>
 				<?php endwhile; endif; ?>
 			</div>
 		</div>

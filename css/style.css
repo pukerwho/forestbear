@@ -9277,7 +9277,7 @@ a.hover-link:hover {
   padding: 10px 25px 10px 25px; }
   .review:first-child {
     padding: 10px 25px 10px 0px; }
-  .review:last-child {
+  .review:nth-child(3n) {
     padding: 10px 0px 10px 25px;
     border-right: 0px; }
   .review__cat {
