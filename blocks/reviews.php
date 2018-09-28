@@ -27,10 +27,10 @@
 			<div class="user__name">
   			<?php echo rwmb_meta( 'meta-review-name' ) ?>
   		</div>
-  		<div class="user__who from-ua">
+  		<div class="user__who not-from-ua">
   			<?php echo rwmb_meta( 'meta-review-from' ) ?>
   		</div>
-  		<div class="user__who not-from-ua">
+  		<div class="user__who from-ua">
   			<?php echo rwmb_meta( 'meta-review-who' ) ?>
   		</div>
 		</div>

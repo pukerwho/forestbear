@@ -9,11 +9,11 @@ $('.toogle-menu').on('click', function(e) {
 $.get("https://ipinfo.io", function (response) {
     var check_country = response.country;
     if (check_country = 'UA') {
-      $('.from-ua').css({'display': 'none'});
-      $('.not-from-ua').css({'display': 'inline-block'});
-    } else {
       $('.from-ua').css({'display': 'inline-block'});
       $('.not-from-ua').css({'display': 'none'});
+    } else {
+      $('.from-ua').css({'display': 'none'});
+      $('.not-from-ua').css({'display': 'inline-block'});
     }
 }, "jsonp");
 
