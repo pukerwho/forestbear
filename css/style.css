@@ -9264,17 +9264,7 @@ a.hover-link:hover {
   text-align: center; }
 
 .review {
-  position: relative;
-  border-right: 1px dashed rgba(158, 158, 158, 0.62);
-  border-bottom: 1px dashed rgba(158, 158, 158, 0.62);
-  padding-bottom: 10px;
-  padding-right: 25px;
-  padding: 10px 25px 10px 25px; }
-  .review:first-child {
-    padding: 10px 25px 10px 0px; }
-  .review:nth-child(3n) {
-    padding: 10px 0px 10px 25px;
-    border-right: 0px; }
+  position: relative; }
   .review__cat {
     display: -webkit-box;
     display: -webkit-flex;
@@ -9305,12 +9295,6 @@ a.hover-link:hover {
       background-color: #0069f7; }
     .review__cat .i-smm {
       color: #0069f7; }
-  .review__video {
-    /* width: auto;    */
-    /* position: absolute;*/
-    /* left: 25px;*/
-    /* right: 25px;*/
-    /* bottom: 10px;*/ }
 
 .user {
   display: -webkit-box;
