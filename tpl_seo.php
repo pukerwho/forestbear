@@ -71,7 +71,7 @@ Template Name: SEO
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
-					<img src="<?php bloginfo('template_url'); ?>/img/seo.png" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo4.png" alt="">
 				</div>
 			</div>
 			<div class="row">
