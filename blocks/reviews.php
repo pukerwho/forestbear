@@ -1,4 +1,4 @@
-<div class="col-md-4 review mb-5">
+<div class="col-md-4 review mb-4">
 	<div class="card p-3">
 		<div class="review__cat">
 			<?php if(rwmb_meta( 'meta-review-cat' ) === 'create'): ?>
