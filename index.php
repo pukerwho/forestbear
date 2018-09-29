@@ -32,7 +32,7 @@
 			<svg viewBox="0 0 77 6" preserveAspectRatio="none" focusable="false" class="_zdxht7" style="height: 15px;"><path fill="currentColor" d="M76.223 1.027c-9.794.058-19.587.024-29.38-.074C37.049.856 27.257.686 17.466.446 11.952.311 6.439.141.926 0-.317-.03-.302 1.765.933 1.81c9.786.362 19.58.54 29.372.672 3.622.048 7.245.083 10.868.108a937.013 937.013 0 0 0-27.007 2.077c-.893.082-.901 1.41.005 1.33a936.8 936.8 0 0 1 24.14-1.854 890.681 890.681 0 0 1 24.285-1.21c4.544-.164 9.088-.296 13.633-.395 1.03-.022 1.028-1.517-.006-1.51"></path></svg>
 		</div>
 		<div class="container py-5">
-			<div class="reviews">
+			<div class="row">
 				<?php 
 				  $custom_query = new WP_Query( array( 
 				  	'post_type' => 'reviews', 'posts_per_page' => 3, 'meta_query' => array(
