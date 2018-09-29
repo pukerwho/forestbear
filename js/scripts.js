@@ -6,13 +6,6 @@ $('.toogle-menu').on('click', function(e) {
 });
 
 
-$('.reviews').masonry({
-  columnWidth: '.grid-sizer',
-  itemSelector: '.review',
-  percentPosition: true,
-  transitionDuration: 0,
-});
-
 $.get("https://ipinfo.io", function (response) {
     var check_country = response.country;
     if (check_country === 'UA') {

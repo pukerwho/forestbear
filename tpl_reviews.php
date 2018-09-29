@@ -21,5 +21,13 @@ Template Name: Отзывы
 </div>
 
 <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script>
+	$('.reviews').masonry({
+	  columnWidth: '.grid-sizer',
+	  itemSelector: '.review',
+	  percentPosition: true,
+	  transitionDuration: 0,
+	});
+</script>
 
 <?php get_footer(); ?>
