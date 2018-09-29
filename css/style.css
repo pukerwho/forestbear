@@ -9263,12 +9263,6 @@ a.hover-link:hover {
   text-transform: uppercase;
   text-align: center; }
 
-.reviews {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 33.3333333333% [3];
-  grid-template-columns: repeat(3, 33.3333333333%); }
-
 .review {
   position: relative;
   border-right: 1px dashed rgba(158, 158, 158, 0.62);
@@ -9312,6 +9306,7 @@ a.hover-link:hover {
     .review__cat .i-smm {
       color: #0069f7; }
   .review__video {
+    /* width: auto;    */
     /* position: absolute;*/
     /* left: 25px;*/
     /* right: 25px;*/

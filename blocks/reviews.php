@@ -1,4 +1,3 @@
-<div class="col-md-4">
 <div class="review card">
 	<div class="review__cat">
 		<?php if(rwmb_meta( 'meta-review-cat' ) === 'create'): ?>
@@ -44,5 +43,4 @@
 			<?php echo rwmb_meta( 'meta-review-video' ) ?>
 		</div>
 	</div>
-</div>
 </div>

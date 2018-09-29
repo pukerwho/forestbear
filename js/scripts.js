@@ -6,6 +6,11 @@ $('.toogle-menu').on('click', function(e) {
 });
 
 
+$('.reviews').masonry({
+  columnWidth: '.review',
+  itemSelector: '.review'
+});
+
 $.get("https://ipinfo.io", function (response) {
     var check_country = response.country;
     if (check_country === 'UA') {

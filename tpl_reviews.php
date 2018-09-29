@@ -9,7 +9,7 @@ Template Name: Отзывы
 <div class="tpl_reviews">
 	<?php get_template_part( 'blocks/page-top', 'default' ); ?>
 	<div class="container py-5">
-		<div class="row">
+		<div class="reviews">
 			<?php 
 			  $custom_query = new WP_Query( array( 'post_type' => 'reviews', 'posts_per_page' => -1 ) );
 			  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
@@ -18,5 +18,7 @@ Template Name: Отзывы
 		</div>
 	</div>
 </div>
+
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
 <?php get_footer(); ?>
