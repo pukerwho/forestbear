@@ -43,12 +43,12 @@ Template Name: SEO
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
-					<img src="../wp-content/themes/wemodern-new/img/seo1.png" alt="" class="width100">
+					<img src="/wp-content/themes/wemodern-new/img/seo1.png" alt="" class="width100">
 				</div>
 			</div>
 			<div class="row align-items-center justify-content-center mb-5">
 				<div class="col-md-6 text-center">
-					<img src="../wp-content/themes/wemodern-new/img/seo.png" alt="">
+					<img src="/wp-content/themes/wemodern-new/img/seo.png" alt="">
 				</div>
 				<div class="col-md-6">
 					<div class="seo__title mb-3">
@@ -71,7 +71,7 @@ Template Name: SEO
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
-					<img src="../wp-content/themes/wemodern-new/img/seo.png" alt="">
+					<img src="/wp-content/themes/wemodern-new/img/seo.png" alt="">
 				</div>
 			</div>
 			<div class="row">
@@ -83,7 +83,7 @@ Template Name: SEO
 			</div>
 			<div class="row align-items-center justify-content-center mb-5">
 				<div class="col-md-6 text-center">
-					<img src="../wp-content/themes/wemodern-new/img/seo2.png" alt="">
+					<img src="/wp-content/themes/wemodern-new/img/seo2.png" alt="">
 				</div>
 				<div class="col-md-6">
 					<div class="seo__title mb-3">
