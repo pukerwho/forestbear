@@ -83,7 +83,7 @@ Template Name: SEO
 			</div>
 			<div class="row align-items-center justify-content-center mb-5">
 				<div class="col-md-6 text-center">
-					<img src="<?php bloginfo('template_url'); ?>/img/seo2.png" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo3.png" alt="">
 				</div>
 				<div class="col-md-6">
 					<div class="seo__title mb-3">
