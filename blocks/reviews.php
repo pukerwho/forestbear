@@ -1,4 +1,5 @@
-<div class="review">
+<div class="col-md-4">
+<div class="review card">
 	<div class="review__cat">
 		<?php if(rwmb_meta( 'meta-review-cat' ) === 'create'): ?>
 		  <div class="review__cat-name create">Создание сайта</div>
@@ -38,7 +39,10 @@
 	<div class="review__content">
 		<?php the_content(); ?>	
 	</div>
-	<div class="review__video">
-		<?php echo rwmb_meta( 'meta-review-video' ) ?>
+	<div class="relative">
+		<div class="review__video">
+			<?php echo rwmb_meta( 'meta-review-video' ) ?>
+		</div>
 	</div>
+</div>
 </div>
