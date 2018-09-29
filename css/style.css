@@ -9263,38 +9263,36 @@ a.hover-link:hover {
   text-transform: uppercase;
   text-align: center; }
 
-.review {
-  position: relative; }
-  .review__cat {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-bottom: 1.5rem; }
-    .review__cat-name {
-      color: #ffffff;
-      font-size: 14px;
-      padding: 3px 12px; }
-    .review__cat .create {
-      background-color: #52ae4a; }
-    .review__cat .i-create {
-      color: #52ae4a; }
-    .review__cat .seo {
-      background-color: #de5c41; }
-    .review__cat .i-seo {
-      color: #de5c41; }
-    .review__cat .smm {
-      background-color: #0069f7; }
-    .review__cat .i-smm {
-      color: #0069f7; }
+.review__cat {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 1.5rem; }
+  .review__cat-name {
+    color: #ffffff;
+    font-size: 14px;
+    padding: 3px 12px; }
+  .review__cat .create {
+    background-color: #52ae4a; }
+  .review__cat .i-create {
+    color: #52ae4a; }
+  .review__cat .seo {
+    background-color: #de5c41; }
+  .review__cat .i-seo {
+    color: #de5c41; }
+  .review__cat .smm {
+    background-color: #0069f7; }
+  .review__cat .i-smm {
+    color: #0069f7; }
 
 .user {
   display: -webkit-box;
