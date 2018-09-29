@@ -9312,11 +9312,10 @@ a.hover-link:hover {
     .review__cat .i-smm {
       color: #0069f7; }
   .review__video {
-    width: auto;
-    position: absolute;
-    left: 25px;
-    right: 25px;
-    bottom: 10px; }
+    /* position: absolute;*/
+    /*   left: 25px;*/
+    /*   right: 25px;*/
+    /*   bottom: 10px;*/ }
 
 .user {
   display: -webkit-box;
