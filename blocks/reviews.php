@@ -1,4 +1,4 @@
-<div class="review card">
+<div class="col-md-4 review card">
 	<div class="review__cat">
 		<?php if(rwmb_meta( 'meta-review-cat' ) === 'create'): ?>
 		  <div class="review__cat-name create">Создание сайта</div>

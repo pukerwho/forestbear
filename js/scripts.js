@@ -7,8 +7,10 @@ $('.toogle-menu').on('click', function(e) {
 
 
 $('.reviews').masonry({
-  columnWidth: '.review',
-  itemSelector: '.review'
+  columnWidth: '.grid-sizer',
+  itemSelector: '.review',
+  percentPosition: true,
+  transitionDuration: 0,
 });
 
 $.get("https://ipinfo.io", function (response) {
