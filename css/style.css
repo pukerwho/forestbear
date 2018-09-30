@@ -9271,6 +9271,8 @@ a.hover-link:hover {
   line-height: 3rem;
   letter-spacing: 3px;
   text-transform: uppercase; }
+.seo__inner {
+  font-size: 2.3rem; }
 
 .review__cat {
   display: -webkit-box;
@@ -9344,7 +9346,11 @@ ul {
 li {
   list-style-type: none; }
 
+a {
+  color: #52ae4a; }
+
 a:hover {
+  color: #343a40;
   text-decoration: none; }
 
 .pc-show {
@@ -9359,8 +9365,32 @@ a:hover {
 .width100 {
   width: 100%; }
 
+.text-large {
+  font-size: 2.3rem; }
+
 .btn a {
   color: #ffffff; }
+
+[type="submit"] {
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  background-color: #002d62;
+  font-size: 22px;
+  text-align: center;
+  overflow: hidden;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px 30px; }
+
+label, input, textarea {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 40px; }
 
 @media (max-width: 576px) {
   .pc-show {
@@ -9537,6 +9567,9 @@ a:hover {
 
   .h1-container h1 {
     font-size: 3rem; }
+
+  .text-large {
+    font-size: 1.2rem; }
 
   .cases__info {
     width: 100%; }
