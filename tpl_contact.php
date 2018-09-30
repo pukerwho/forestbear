@@ -8,7 +8,9 @@ Template Name: Контакты
 <?php get_header(); ?>
 
 <div class="tpl_contact">
-	<?php get_template_part( 'blocks/page-top', 'default' ); ?>
+	<div style="background: url(<?php bloginfo('template_url'); ?>/img/bg-bottom.svg) center bottom/105% no-repeat;">
+		<?php get_template_part( 'blocks/page-top', 'default' ); ?>
+	</div>
 	<div class="bg-white">
 		<div class="container py-5">
 			<div class="row justify-content-center">
