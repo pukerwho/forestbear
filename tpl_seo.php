@@ -120,14 +120,18 @@ Template Name: SEO
 			<div class="row align-items-center justify-content-center mb-5">
 				<div class="col-md-6">
 					<div class="seo__title text-dark mb-4">
-						Кейсы по теме:
+						Реальные результаты
 					</div>
-					<div class="seo__description lead">
-						<?php 
-					    $custom_query = new WP_Query( array( 'post_type' => 'cases', 'posts_per_page' => 5 ) );
-					    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-					  	<div class="div"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></div>
-					  <?php endwhile; endif; ?>
+					<div class="seo__description seo__cases lead">
+						<div class="mb-4">Кейсы по теме:</div>
+						<div class="mb-4">
+							<?php 
+						    $custom_query = new WP_Query( array( 'post_type' => 'cases', 'posts_per_page' => 5 ) );
+						    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
+						  	<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+						  <?php endwhile; endif; ?>
+					  </div>
+						<a href="/cases"><div class="btn btn-success">Больше кейсов</div></a>
 					</div>
 				</div>
 				<div class="col-md-6 text-center">

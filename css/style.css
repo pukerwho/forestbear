@@ -9273,6 +9273,8 @@ a.hover-link:hover {
   text-transform: uppercase; }
 .seo__inner {
   font-size: 2.3rem; }
+.seo__cases li {
+  list-style-type: disc; }
 
 .review__cat {
   display: -webkit-box;
