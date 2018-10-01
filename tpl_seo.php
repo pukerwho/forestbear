@@ -45,9 +45,9 @@ Template Name: SEO
 					<div class="seo__title text-dark mb-4">
 						Знаем, как выводить высокочастотные запросы в топ
 					</div>
-					<div class="seo__description">
-						Рассказ
-						Показатель отказов (было - стало)
+					<div class="seo__description lead">
+						Мы работаем по всему спектру ключевых слов. Если пользователь должен находить Вас по фразе "Купить светильник", то он будет Вас находить. Мы это сделаем! 
+						<br><br><span class="highlight">У нас есть опыт и знания, чтобы вывести в ТОП даже самый высокочастотный и высококонкурентный запрос 🤓</span>
 					</div>
 				</div>
 				<div class="col-md-6 text-center">
@@ -61,7 +61,7 @@ Template Name: SEO
 			</div>
 			<div class="row align-items-center justify-content-center">
 				<div class="col-md-6 text-center">
-					<img src="<?php bloginfo('template_url'); ?>/img/seo.png" alt="">
+					<img src="<?php bloginfo('template_url'); ?>/img/seo6.png" alt="">
 				</div>
 				<div class="col-md-6 text-right">
 					<div class="seo__title text-dark mb-4">
