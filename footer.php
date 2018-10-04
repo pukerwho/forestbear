@@ -30,10 +30,8 @@
 						</div>
 						<div class="footer-link">
 							<li><a href="/faq">Почитайте F.A.Q</a></li>
-							<li><a href="/hosting">Бесплатный хостинг</a></li>
 							<li><a href="/seo">SEO-продвижение</a></li>
 							<li><a href="/rules">Наши правила</a></li>
-							<li><a href="/manifest">Манифест</a></li>
 						</div>
 					</div>
 					<div class="col-md-2 mb-5">
@@ -44,8 +42,6 @@
 							<li><a href="/about">О нас</a></li>
 							<li><a href="/vacancies">Вакансии</a></li>
 							<li><a href="/reviews">Отзывы</a></li>
-							<li><a href="#">Успехи</a></li>
-							<li><a href="/blog">Наш блог</a></li>
 						</div>
 					</div>
 					<div class="col-md-3 mb-5">
@@ -54,6 +50,7 @@
 						</div>
 						<div class="footer-text">
 							Подпишись, чтобы не пропускать интересные новости. Обещаем - никакого спама!
+							<div><?php echo do_shortcode('[contact-form-7 id="119" title="Рассылка"]'); ?></div>
 						</div>
 					</div>
 				</div>

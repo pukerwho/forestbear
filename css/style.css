@@ -9592,6 +9592,21 @@ label, input, textarea {
   .text-large {
     font-size: 1.2rem; }
 
+  .mainpage__reviews {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+
+  .review {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 15px; }
+
   .cases__info {
     width: 100%; }
   .cases__bg {
