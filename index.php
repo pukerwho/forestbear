@@ -32,19 +32,64 @@
 			<svg viewBox="0 0 77 6" preserveAspectRatio="none" focusable="false" class="_zdxht7" style="height: 15px;"><path fill="currentColor" d="M76.223 1.027c-9.794.058-19.587.024-29.38-.074C37.049.856 27.257.686 17.466.446 11.952.311 6.439.141.926 0-.317-.03-.302 1.765.933 1.81c9.786.362 19.58.54 29.372.672 3.622.048 7.245.083 10.868.108a937.013 937.013 0 0 0-27.007 2.077c-.893.082-.901 1.41.005 1.33a936.8 936.8 0 0 1 24.14-1.854 890.681 890.681 0 0 1 24.285-1.21c4.544-.164 9.088-.296 13.633-.395 1.03-.022 1.028-1.517-.006-1.51"></path></svg>
 		</div>
 		<div class="container py-5">
-			<div class="row">
+			<div class="mainpage__reviews">
 				<?php 
 				  $custom_query = new WP_Query( array( 
 				  	'post_type' => 'reviews', 'posts_per_page' => 3, 'meta_query' => array(
 				  		array(
 								'key'     => 'meta-review-popular',
-								'value'   => 1,
+								'value'   => 0,
 								'compare' => '=',
 							),
 						)
 				  ));
 				  if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
-				  <?php get_template_part( 'blocks/reviews', 'default' ); ?>
+				  <div class="review">
+						<div class="card p-3">
+							<div class="review__cat">
+								<?php if(rwmb_meta( 'meta-review-cat' ) === 'create'): ?>
+								  <div class="review__cat-name create">Создание сайта</div>
+								  <div class="review__cat-order">
+						  			<i class="fas fa-thumbs-up i-create"></i>
+						  		</div>
+								<?php elseif (rwmb_meta( 'meta-review-cat' ) === 'seo'): ?>
+								  <div class="review__cat-name seo">SEO-продвижение</div>
+								  <div class="review__cat-order">
+						  			<i class="fas fa-thumbs-up i-seo"></i>
+						  		</div>
+								<?php else: ?>
+								  <div class="review__cat-name smm">SMM-продвижение</div>
+								  <div class="review__cat-order">
+						  			<i class="fas fa-thumbs-up i-smm"></i>
+						  		</div>
+								<?php endif; ?>
+							</div>
+							<div class="user">
+								<div class="user__avatar">
+									<?php 
+										rwmb_the_value( 'meta-review-avatar', array( 'size' => 'thumbnail' )  );
+									?>
+								</div>
+								<div class="user-info">
+									<div class="user__name">
+						  			<?php echo rwmb_meta( 'meta-review-name' ) ?>
+						  		</div>
+						  		<div class="user__who not-from-ua">
+						  			<?php echo rwmb_meta( 'meta-review-from' ) ?>
+						  		</div>
+						  		<div class="user__who from-ua">
+						  			<?php echo rwmb_meta( 'meta-review-who' ) ?>
+						  		</div>
+								</div>
+							</div>
+							<div class="review__content">
+								<?php the_content(); ?>	
+							</div>
+							<div class="review__video">
+								<?php echo rwmb_meta( 'meta-review-video' ) ?>
+							</div>
+						</div>
+					</div>
 				<?php endwhile; endif; ?>
 			</div>
 		</div>

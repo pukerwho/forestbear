@@ -9276,6 +9276,16 @@ a.hover-link:hover {
 .seo__cases li {
   list-style-type: disc; }
 
+.mainpage__reviews {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: calc( 33.333333% - 10px ) [3];
+  grid-template-columns: repeat(3, -webkit-calc( 33.333333% - 10px ));
+  grid-template-columns: repeat(3, calc( 33.333333% - 10px ));
+  grid-column-gap: 10px; }
+  .mainpage__reviews .card {
+    height: 100%; }
+
 .review__cat {
   display: -webkit-box;
   display: -webkit-flex;
@@ -9331,7 +9341,7 @@ a.hover-link:hover {
 
 @font-face {
   font-family: Gagalin;
-  src: url(../wp-content/wemodern-new/fonts/gagalin.otf); }
+  src: url(../fonts/gagalin.otf); }
 body {
   background-color: #fbfbfb; }
 
