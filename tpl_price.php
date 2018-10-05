@@ -11,81 +11,143 @@ Template Name: Цены
 	<section class="my-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					<div class="card bg-white p-5">
-						<div class="card-content">
-							<div class="pb-3">Создание сайта</div>
-							<div class="pb-3"><span class="display-3 font-weight-bold">$500</span></div>
-							<div class="price-list pb-3">
-								<li class="my-2">
-									<i class="fas fa-check text-info pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check text-info pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check text-info pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2 text-muted">
-									<i class="fas fa-minus pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2 text-muted">
-									<i class="fas fa-minus pr-2"></i> Unlimited product updates
-								</li>
+				<div class="col-md-4 mb-4">
+					<div class="card price bg-white">
+						<div class="price__top p-5">
+							<div class="price__img mb-5">
+								<img src="<?php bloginfo('template_url'); ?>/img/price-1.png" alt="">	
 							</div>
-							<div class="btn btn-lg btn-raised btn-block bg-white mb-5 my-sm-0 mr-sm-2">Заказать</div>
+							<div class="price__name mb-4">
+								Сайт-визитка
+							</div>
+							<div class="price__info mb-4">
+								<a href="#" class="link-hover-underline">Пример сайта</a>
+							</div>
+							<div class="price__number">
+								4 000 UAH
+							</div>
+						</div>
+						<div class="price__bottom bg-lightgreen">
+							<div class="price__order">
+								Заказать
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="card bg-success text-white p-5">
-						<div class="card-content">
-							<div class="pb-3">Seo-продвижение</div>
-							<div class="pb-3"><span class="display-3 font-weight-bold">$199</span>/мес</div>
-							<div class="price-list pb-3">
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2 text-light">
-									<i class="fas fa-minus pr-2"></i> Unlimited product updates
-								</li>
+				<div class="col-md-4 mb-4">
+					<div class="card price bg-white">
+						<div class="price__top p-5">
+							<div class="price__img mb-5">
+								<img src="<?php bloginfo('template_url'); ?>/img/price-2.png" alt="">	
 							</div>
-							<div class="btn btn-lg btn-raised btn-block bg-white mb-5 my-sm-0 mr-sm-2" >Заказать</div>
+							<div class="price__name mb-4">
+								Landing Page
+							</div>
+							<div class="price__info mb-4">
+								<a href="#" class="link-hover-underline">Пример сайта</a>
+							</div>
+							<div class="price__number">
+								7 000 UAH
+							</div>
+						</div>
+						<div class="price__bottom bg-sky">
+							<div class="price__order">
+								Заказать
+							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="card bg-info text-white p-5">
-						<div class="card-content">
-							<div class="pb-3">SMM-продвижение</div>
-							<div class="pb-3"><span class="display-3 font-weight-bold">$199</span>/мес</div>
-							<div class="price-list pb-3">
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
-								<li class="my-2">
-									<i class="fas fa-check pr-2"></i> Unlimited product updates
-								</li>
+				<div class="col-md-4 mb-4">
+					<div class="card price bg-white">
+						<div class="price__top p-5">
+							<div class="price__img mb-5">
+								<img src="<?php bloginfo('template_url'); ?>/img/price-3.png" alt="">	
 							</div>
-							<div class="btn btn-lg btn-raised btn-block bg-white mb-5 my-sm-0 mr-sm-2" >Заказать</div>
+							<div class="price__name mb-4">
+								Сайт-каталог
+							</div>
+							<div class="price__info mb-4">
+								<a href="#" class="link-hover-underline">Пример сайта</a>
+							</div>
+							<div class="price__number">
+								10 000 UAH
+							</div>
+						</div>
+						<div class="price__bottom bg-lightyellow">
+							<div class="price__order">
+								Заказать
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4 mb-4">
+					<div class="card price bg-white">
+						<div class="price__top p-5">
+							<div class="price__img mb-5">
+								<img src="<?php bloginfo('template_url'); ?>/img/price-shop.png" alt="">	
+							</div>
+							<div class="price__name mb-4">
+								Интернет-магазин
+							</div>
+							<div class="price__info mb-4">
+								<a href="#" class="link-hover-underline">Пример сайта</a>
+							</div>
+							<div class="price__number">
+								20 000 UAH
+							</div>
+						</div>
+						<div class="price__bottom bg-lightpurpul">
+							<div class="price__order">
+								Заказать
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="card price bg-white">
+						<div class="price__top p-5">
+							<div class="price__img mb-5">
+								<img src="<?php bloginfo('template_url'); ?>/img/price-seo.png" alt="">	
+							</div>
+							<div class="price__name mb-4">
+								SEO-Продвижение
+							</div>
+							<div class="price__info mb-4">
+								<a href="#" class="link-hover-underline">Реальные результаты</a>
+							</div>
+							<div class="price__number">
+								5 000 UAH
+							</div>
+						</div>
+						<div class="price__bottom bg-lightred">
+							<div class="price__order">
+								Заказать
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-4">
+					<div class="card price bg-white">
+						<div class="price__top p-5">
+							<div class="price__img mb-5">
+								<img src="<?php bloginfo('template_url'); ?>/img/price-audit.png" alt="">	
+							</div>
+							<div class="price__name mb-4">
+								Аудит сайта
+							</div>
+							<div class="price__info mb-4">
+								<a href="#" class="link-hover-underline">Подробнее</a>
+							</div>
+							<div class="price__number">
+								900 UAH
+							</div>
+						</div>
+						<div class="price__bottom bg-lightblue">
+							<div class="price__order">
+								Заказать
+							</div>
 						</div>
 					</div>
 				</div>

@@ -9339,6 +9339,44 @@ a.hover-link:hover {
     color: #777777;
     font-size: 15px; }
 
+.price__img img {
+  width: 100%;
+  height: 145px;
+  -o-object-fit: contain;
+  object-fit: contain; }
+.price__name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center; }
+.price__info {
+  font-size: 0.9rem;
+  text-align: center; }
+.price__number {
+  font-size: 1.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center; }
+.price__bottom {
+  height: 75px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer; }
+.price__order {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase; }
+
 @font-face {
   font-family: Gagalin;
   src: url(../fonts/gagalin.otf); }
@@ -9380,12 +9418,51 @@ a:hover {
 .text-large {
   font-size: 2.3rem; }
 
+.bg-lightgreen {
+  background-color: #90e8cb; }
+
+.bg-lightpurpul {
+  background-color: #a69ed6; }
+
+.bg-lightyellow {
+  background-color: #ffe763; }
+
+.bg-lightred {
+  background-color: #f0c8c3; }
+
+.bg-lightblue {
+  background-color: #D8EEFE; }
+
+.bg-sky {
+  background-color: #42A3F3; }
+
 .highlight {
   -webkit-border-radius: 1em 0 1em 0;
   border-radius: 1em 0 1em 0;
   background-image: -webkit-linear-gradient(190deg, rgba(250, 247, 133, 0.3), rgba(250, 247, 133, 0.7) 95%, rgba(250, 247, 133, 0.1));
   background-image: -o-linear-gradient(190deg, rgba(250, 247, 133, 0.3), rgba(250, 247, 133, 0.7) 95%, rgba(250, 247, 133, 0.1));
   background-image: linear-gradient(-100deg, rgba(250, 247, 133, 0.3), rgba(250, 247, 133, 0.7) 95%, rgba(250, 247, 133, 0.1)); }
+
+.link-hover-underline {
+  position: relative;
+  color: #343a40; }
+  .link-hover-underline:before {
+    content: '';
+    width: 0%;
+    height: 6px;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    background-color: #52ae4a; }
+
+.link-hover-underline:hover:before {
+  width: 100%;
+  -webkit-transition: width 0.4s;
+  -o-transition: width 0.4s;
+  transition: width 0.4s;
+  -webkit-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  transition-delay: 0.2s; }
 
 #content {
   padding-top: 56px; }
