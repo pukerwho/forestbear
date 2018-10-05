@@ -9409,6 +9409,9 @@ a:hover {
 .mobile-show {
   display: none; }
 
+.from-ua, .not-from-ua {
+  display: none; }
+
 .relative {
   position: relative; }
 
