@@ -15,6 +15,7 @@ $(window).scroll(function(){
   }
 })
 
+AOS.init();
 
 $.get("https://ipinfo.io", function (response) {
     var check_country = response.country;

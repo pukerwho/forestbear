@@ -11,7 +11,7 @@ Template Name: Цены
 	<section class="my-5">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4 mb-4">
+				<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="100">
 					<div class="card price bg-white">
 						<div class="price__top p-5">
 							<div class="price__img mb-5">
@@ -27,14 +27,14 @@ Template Name: Цены
 								4 000 UAH
 							</div>
 						</div>
-						<div class="price__bottom bg-lightgreen">
+						<div class="price__bottom bg-lightgreen" data-toggle="modal" data-target="#vizitkaModal">
 							<div class="price__order">
 								Заказать
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-4">
+				<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
 					<div class="card price bg-white">
 						<div class="price__top p-5">
 							<div class="price__img mb-5">
@@ -50,14 +50,14 @@ Template Name: Цены
 								7 000 UAH
 							</div>
 						</div>
-						<div class="price__bottom bg-sky">
+						<div class="price__bottom bg-sky" data-toggle="modal" data-target="#landingModal">
 							<div class="price__order">
 								Заказать
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-4">
+				<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600">
 					<div class="card price bg-white">
 						<div class="price__top p-5">
 							<div class="price__img mb-5">
@@ -73,7 +73,7 @@ Template Name: Цены
 								10 000 UAH
 							</div>
 						</div>
-						<div class="price__bottom bg-lightyellow">
+						<div class="price__bottom bg-lightyellow" data-toggle="modal" data-target="#catalogModal">
 							<div class="price__order">
 								Заказать
 							</div>
@@ -82,7 +82,7 @@ Template Name: Цены
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-md-4 mb-4">
+				<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="300">
 					<div class="card price bg-white">
 						<div class="price__top p-5">
 							<div class="price__img mb-5">
@@ -98,14 +98,14 @@ Template Name: Цены
 								20 000 UAH
 							</div>
 						</div>
-						<div class="price__bottom bg-lightpurpul">
+						<div class="price__bottom bg-lightpurpul" data-toggle="modal" data-target="#shopModal">
 							<div class="price__order">
 								Заказать
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-4">
+				<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="600">
 					<div class="card price bg-white">
 						<div class="price__top p-5">
 							<div class="price__img mb-5">
@@ -115,20 +115,20 @@ Template Name: Цены
 								SEO-Продвижение
 							</div>
 							<div class="price__info mb-4">
-								<a href="#" class="link-hover-underline">Реальные результаты</a>
+								<a href="/seo" class="link-hover-underline">Подробнее</a>
 							</div>
 							<div class="price__number">
 								5 000 UAH
 							</div>
 						</div>
-						<div class="price__bottom bg-lightred">
+						<div class="price__bottom bg-lightred" data-toggle="modal" data-target="#seoModal">
 							<div class="price__order">
 								Заказать
 							</div>
 						</div>
 					</div>
 				</div>
-				<div class="col-md-4 mb-4">
+				<div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="900">
 					<div class="card price bg-white">
 						<div class="price__top p-5">
 							<div class="price__img mb-5">
@@ -144,7 +144,7 @@ Template Name: Цены
 								900 UAH
 							</div>
 						</div>
-						<div class="price__bottom bg-lightblue">
+						<div class="price__bottom bg-lightblue" data-toggle="modal" data-target="#auditModal">
 							<div class="price__order">
 								Заказать
 							</div>
@@ -154,6 +154,108 @@ Template Name: Цены
 			</div>
 		</div>
 	</section>
+</div>
+
+<!-- Сайт визитка Modal -->
+<div class="modal fade" id="vizitkaModal" tabindex="-1" role="dialog" aria-labelledby="vizitkaModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Напишите нам</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Landing Modal -->
+<div class="modal fade" id="landingModal" tabindex="-1" role="dialog" aria-labelledby="landingModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Напишите нам</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Catalog Modal -->
+<div class="modal fade" id="catalogModal" tabindex="-1" role="dialog" aria-labelledby="catalogModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Напишите нам</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Shop Modal -->
+<div class="modal fade" id="shopModal" tabindex="-1" role="dialog" aria-labelledby="shopModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Напишите нам</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SEO Modal -->
+<div class="modal fade" id="seoModal" tabindex="-1" role="dialog" aria-labelledby="seoModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Напишите нам</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Catalog Modal -->
+<div class="modal fade" id="auditModal" tabindex="-1" role="dialog" aria-labelledby="auditModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Напишите нам</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <?php echo do_shortcode('[contact-form-7 id="366" title="Обратный звонок"]'); ?>
+      </div>
+    </div>
+  </div>
 </div>
 
 <?php get_footer(); ?>
