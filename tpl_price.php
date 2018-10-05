@@ -24,7 +24,8 @@ Template Name: Цены
 								<a href="#" class="link-hover-underline">Пример сайта</a>
 							</div>
 							<div class="price__number">
-								4 000 UAH
+								<div class="from-ua">4 000 UAH</div>
+								<div class="not-from-ua">10 000 RUB</div>
 							</div>
 						</div>
 						<div class="price__bottom bg-lightgreen" data-toggle="modal" data-target="#vizitkaModal">
@@ -47,7 +48,8 @@ Template Name: Цены
 								<a href="#" class="link-hover-underline">Пример сайта</a>
 							</div>
 							<div class="price__number">
-								7 000 UAH
+								<div class="from-ua">7 000 UAH</div>
+								<div class="not-from-ua">15 000 RUB</div>
 							</div>
 						</div>
 						<div class="price__bottom bg-sky" data-toggle="modal" data-target="#landingModal">
@@ -70,7 +72,8 @@ Template Name: Цены
 								<a href="#" class="link-hover-underline">Пример сайта</a>
 							</div>
 							<div class="price__number">
-								10 000 UAH
+								<div class="from-ua">10 000 UAH</div>
+								<div class="not-from-ua">25 000 RUB</div>
 							</div>
 						</div>
 						<div class="price__bottom bg-lightyellow" data-toggle="modal" data-target="#catalogModal">
@@ -95,7 +98,8 @@ Template Name: Цены
 								<a href="#" class="link-hover-underline">Пример сайта</a>
 							</div>
 							<div class="price__number">
-								20 000 UAH
+								<div class="from-ua">20 000 UAH</div>
+								<div class="not-from-ua">40 000 RUB</div>
 							</div>
 						</div>
 						<div class="price__bottom bg-lightpurpul" data-toggle="modal" data-target="#shopModal">
@@ -118,7 +122,8 @@ Template Name: Цены
 								<a href="/seo" class="link-hover-underline">Подробнее</a>
 							</div>
 							<div class="price__number">
-								5 000 UAH
+								<div class="from-ua">5 000 UAH</div>
+								<div class="not-from-ua">10 000 RUB</div>
 							</div>
 						</div>
 						<div class="price__bottom bg-lightred" data-toggle="modal" data-target="#seoModal">
@@ -141,7 +146,8 @@ Template Name: Цены
 								<a href="#" class="link-hover-underline">Подробнее</a>
 							</div>
 							<div class="price__number">
-								900 UAH
+								<div class="from-ua">900 UAH</div>
+								<div class="not-from-ua">2 000 RUB</div>
 							</div>
 						</div>
 						<div class="price__bottom bg-lightblue" data-toggle="modal" data-target="#auditModal">
