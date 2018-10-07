@@ -28,6 +28,9 @@ register_nav_menus( array(
     'main_menu' => __( 'Menu principal', 'minimal-blank-theme' ) //@TODO : change i18n domain name to yours
 ) );
 // Register sidebars
+
+add_post_type_support( 'portfolio', 'page-attributes' );
+
 function registerThemeSidebars() {
     if( !function_exists( 'register_sidebar' ) ) {
         return;
@@ -99,6 +102,7 @@ function create_post_type() {
       ),
       'public' => true,
       'has_archive' => true,
+      'hierarchical' => true,
       'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'comments' ),
     )
   );
