@@ -6,7 +6,7 @@
 	<div class="container">
 		<div class="row mb-5">
 			<?php 
-	    $custom_query = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => 9 ) );
+	    $custom_query = new WP_Query( array( 'post_type' => 'portfolio', 'posts_per_page' => 9, 'orderby' => 'menu_order' ) );
 	    if ($custom_query->have_posts()) : while ($custom_query->have_posts()) : $custom_query->the_post(); ?>
 			<div class="col-md-4 p-0">
 				<div class="portfolio__item">
