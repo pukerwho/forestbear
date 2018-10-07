@@ -11,7 +11,7 @@
 				<div class="contact-block mb-4">
 					<div class="phone mb-2">
 						<i class="fas fa-phone"></i>
-							<a href="tel:+88 01928737807" class="hover-link">+88 01928737807</a>
+							<a href="tel:380997713997" class="hover-link">+38(099)-77-13-997</a>
 					</div>
 					<div class="email mb-2">
 						<i class="fas fa-envelope"></i>
@@ -19,11 +19,11 @@
 					</div>
 					<div class="telegram mb-2">
 						<i class="fab fa-telegram-plane"></i>
-						<a href="#" class="hover-link">Telegram</a>	
+						<a href="tg://resolve?domain=web_WeModern" class="hover-link">Telegram</a>	
 					</div>
 					<div class="facebook">
 						<i class="fab fa-facebook-f"></i>
-						<a href="#" class="hover-link">Facebook</a>	
+						<a href="https://www.facebook.com/wemodern/" class="hover-link">Facebook</a>	
 					</div>
 				</div>
 				<div>
