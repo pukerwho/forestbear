@@ -6,12 +6,14 @@ Template Name: Портфолио
 
 <?php get_header(); ?>
 <div class="tpl_portfolio">
-	<?php get_template_part( 'blocks/page-top', 'default' ); ?>
+	<div style="background: url(<?php bloginfo('template_url'); ?>/img/bg-bottom.svg) center bottom/105% no-repeat;">
+		<?php get_template_part( 'blocks/page-top', 'default' ); ?>
+	</div>
 	<div class="bg-white">
 		<div class="container container-mix portfolio py-5">
 			<div class="row portfolio__filter mb-5">
 				<div class="col-md-12">
-					<ul class="d-flex justify-content-center">
+					<ul class="d-flex">
 						<li class="mr-4"><a href="#" data-mixitup-control data-filter="all">Все работы</a></li>
 						<li class="mr-4"><a href="#" data-mixitup-control data-filter=".create">Создание сайтов</a></li>
 						<li class="mr-4"><a href="#" data-mixitup-control data-filter=".seo">SEO-продвижение</a></li>
