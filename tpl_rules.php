@@ -11,11 +11,18 @@ Template Name: Правила
 	</div>
 	<div class="bg-white py-5">
 		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					Мы всегда используем новые технологие, если уверены, что они помогут нам эффективнее работать.
-					Нас мотивирует отлично сделанная работа, которую не стыдно поместить в <a href="/portfolio">Портфолио</a>. 
+			<div class="rules">
+				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+				<div class="row">
+					<div class="col-md-10">
+						<div class="rules__text lead">
+							<?php the_content(); ?>
+						</div>
+					</div>
 				</div>
+				<?php endwhile; else: ?>
+					<p><?php _e('Sorry, no posts matched your criteria.'); ?></p>
+				<?php endif; ?>
 			</div>
 		</div>
 	</div>
