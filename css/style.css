@@ -9843,6 +9843,14 @@ footer {
   background-color: #333333;
   padding: 100px 0px 0px 0px;
   background: #333333 url(https://basecamp.com/assets/general/deckle-edge-top-524052df2d1f869df48c9fe978b328bcbbf4f7b385216c6402f671f63439e4ee.svg) center top/105% no-repeat; }
+  footer input {
+    width: 100%;
+    padding: 10px; }
+  footer [type="submit"] {
+    width: auto;
+    border: 1px solid #52ae4a;
+    -webkit-border-radius: 3px;
+    border-radius: 3px; }
 
 .footer-heading {
   color: #ffffff;
