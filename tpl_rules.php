@@ -13,7 +13,7 @@ Template Name: Правила
 		<div class="container">
 			<div class="rules">
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-				<div class="row">
+				<div class="row justify-content-center">
 					<div class="col-md-10">
 						<div class="rules__text lead">
 							<?php the_content(); ?>
