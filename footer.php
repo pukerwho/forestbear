@@ -4,23 +4,28 @@
 				<div class="row">
 					<div class="col-md-4 mb-5">
 						<div class="footer-heading text-uppercase">
-							О Нас
-						</div>
-						<div class="footer-text">
-							Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna erat volutpat
+							Контакты
 						</div>
 						<div class="footer-contact">
 							<div class="address flex align-items-center">
 								<i class="fas fa-map-marker-alt"></i>
-								<address>Украина, Харьков</address>
+								<address class="from-ua">Украина, Харьков</address>
 							</div>
 							<div class="phone flex align-items-center">
 								<i class="fas fa-phone"></i>
-								<a href="tel:+88 01928737807">+88 01928737807</a>
+								<a href="tel:380997713997" class="hover-link">+38(099)-77-13-997</a>
 							</div>
 							<div class="email flex align-items-center">
 								<i class="fas fa-envelope"></i>
-								<a href="mailto:quickmasud@gmail.com">wemodern@gmail.com</a>	
+								<a href="mailto:web.wemodern@gmail.com" class="hover-link">web.wemodern@gmail.com</a>	
+							</div>
+							<div class="telegram flex align-items-center">
+								<i class="fab fa-telegram-plane"></i>
+								<a href="tg://resolve?domain=web_WeModern" class="hover-link">Telegram</a>
+							</div>
+							<div class="facebook flex align-items-center">
+								<i class="fab fa-facebook-f"></i>
+								<a href="https://www.facebook.com/wemodern/" class="hover-link">Facebook</a>
 							</div>
 						</div>
 					</div>
