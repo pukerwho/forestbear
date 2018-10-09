@@ -39,6 +39,15 @@ Template Name: Кейсы
 				</div>
 			<?php endwhile; endif; ?>
 		</div>
+		<div class="bg-white">
+			<div class="container py-5">
+				<div class="row justify-content-center">
+					<div class="col-md-9">
+						<?php get_template_part( 'blocks/form-me', 'default' ); ?>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 	<!-- Список всех работ -->
 	<div class="bg-white py-5">

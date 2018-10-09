@@ -55,6 +55,15 @@ Template Name: Портфолио
 			</div>
 		</div>
 	</div>
+	<div class="bg-white">
+		<div class="container py-5">
+			<div class="row justify-content-center">
+				<div class="col-md-9">
+					<?php get_template_part( 'blocks/form-me', 'default' ); ?>
+				</div>
+			</div>
+		</div>
+	</div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/3.3.0/mixitup.min.js"></script>
 <?php get_footer(); ?>
