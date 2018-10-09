@@ -21,7 +21,7 @@ Template Name: Цены
 								Сайт-визитка
 							</div>
 							<div class="price__info mb-4">
-								<a href="#" class="link-hover-underline">Пример сайта</a>
+								<a href="http://dominicandance.ru/" class="link-hover-underline" target="_blank">Пример сайта</a>
 							</div>
 							<div class="price__number">
 								<div class="from-ua">4 000 UAH</div>
@@ -45,7 +45,7 @@ Template Name: Цены
 								Landing Page
 							</div>
 							<div class="price__info mb-4">
-								<a href="#" class="link-hover-underline">Пример сайта</a>
+								<a href="https://www.victorymovinginc.com/" class="link-hover-underline" target="_blank">Пример сайта</a>
 							</div>
 							<div class="price__number">
 								<div class="from-ua">7 000 UAH</div>
@@ -69,7 +69,7 @@ Template Name: Цены
 								Сайт-каталог
 							</div>
 							<div class="price__info mb-4">
-								<a href="#" class="link-hover-underline">Пример сайта</a>
+								<a href="http://www.vvk-bus.com.ua/" class="link-hover-underline" target="_blank">Пример сайта</a>
 							</div>
 							<div class="price__number">
 								<div class="from-ua">10 000 UAH</div>
@@ -95,7 +95,7 @@ Template Name: Цены
 								Интернет-магазин
 							</div>
 							<div class="price__info mb-4">
-								<a href="#" class="link-hover-underline">Пример сайта</a>
+								<a href="#" class="link-hover-underline" target="_blank">Пример сайта</a>
 							</div>
 							<div class="price__number">
 								<div class="from-ua">20 000 UAH</div>
@@ -119,7 +119,7 @@ Template Name: Цены
 								SEO-Продвижение
 							</div>
 							<div class="price__info mb-4">
-								<a href="/seo" class="link-hover-underline">Подробнее</a>
+								<a href="http://seo.wemodern.com/" class="link-hover-underline" target="_blank">Подробнее</a>
 							</div>
 							<div class="price__number">
 								<div class="from-ua">5 000 UAH</div>
@@ -143,7 +143,7 @@ Template Name: Цены
 								Аудит сайта
 							</div>
 							<div class="price__info mb-4">
-								<a href="#" class="link-hover-underline">Подробнее</a>
+								<a href="http://seo.wemodern.com/" class="link-hover-underline" target="_blank">Подробнее</a>
 							</div>
 							<div class="price__number">
 								<div class="from-ua">900 UAH</div>

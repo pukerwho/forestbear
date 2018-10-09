@@ -28,7 +28,7 @@ Template Name: Портфолио
 		    <div class="col-md-4 p-0 mix <?php $cats = rwmb_meta( 'meta-portfolio-cat' );
 					foreach ( $cats as $cat ) { echo $cat; } ?>">
 					<div class="portfolio__item">
-						<a href="<?php echo rwmb_meta( 'meta-portfolio-link' ); ?>">
+						<a href="<?php echo rwmb_meta( 'meta-portfolio-link' ); ?>" target="_blank">
 							<div class="portfolio__item-absolute"></div>
 							<img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="" class="portfolio__item-bg">
 							<div class="portfolio__item-logo">
