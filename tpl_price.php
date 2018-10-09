@@ -159,16 +159,16 @@ Template Name: Цены
 				</div>
 			</div>
 		</div>
-		<div class="bg-white">
-			<div class="container py-5">
-				<div class="row justify-content-center">
-					<div class="col-md-9">
-						<?php get_template_part( 'blocks/form-me', 'default' ); ?>
-					</div>
+	</section>
+	<div class="bg-white">
+		<div class="container py-5">
+			<div class="row justify-content-center">
+				<div class="col-md-9">
+					<?php get_template_part( 'blocks/form-me', 'default' ); ?>
 				</div>
 			</div>
 		</div>
-	</section>
+	</div>
 </div>
 
 <!-- Сайт визитка Modal -->
