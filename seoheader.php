@@ -35,14 +35,13 @@
             <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><span class="lightdarkblack font-weight-bold">WeModern</span> <span class="mobile-none">|</span><span class="lightdarkblack font-weight-light mobile-none"> SEO-Продвижение</span></a>
             <div class="headermenu">
               <div class="pc-show">
-                <div class="menu">
+                <div class="menu d-flex align-items-center justify-content-between">
                   <?php 
                     wp_nav_menu( array(
                       'menu'            => 'MainMenu', 
                     ))
                   ?>
                   <ul>
-                  	<li class="ml-3"> | </a></li>
                   	<li><div class="btn btn-success" data-toggle="modal" data-target="#seoAuditModal">Заказать аудит</div></li>
                   </ul>
                 </div>
