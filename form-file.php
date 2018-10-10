@@ -33,7 +33,7 @@
 
         <tr valign="top">
         <th scope="row">Код JivoSite</th>
-        <td><textarea type="text" name="jivo_site" value="<?php echo esc_attr( get_option('jivo_site') ); ?>" /></textarea></td>
+        <td><input type="text" name="jivo_site" value="<?php echo esc_attr( get_option('jivo_site') ); ?>" /></input></td>
         </tr>
     </table>
     
