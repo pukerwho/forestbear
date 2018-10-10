@@ -71,5 +71,21 @@
 			</div>
 		</div>
     <?php wp_footer(); ?>
+    <!-- seoAudit Modal -->
+    <div class="modal fade" id="seoAuditModal" tabindex="-1" role="dialog" aria-labelledby="seoAuditLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Заказать аудит</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <?php echo do_shortcode('[contact-form-7 id="24" title="Заказать seo-аудит"]'); ?>
+          </div>
+        </div>
+      </div>
+    </div>
 </body>
 </html>
