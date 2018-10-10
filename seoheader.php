@@ -42,7 +42,7 @@
                     ))
                   ?>
                   <ul>
-                  	<li><div class="btn btn-success" data-toggle="modal" data-target="#seoAuditModal">Заказать аудит</div></li>
+                  	<li class="ml-3"><div class="btn btn-success" data-toggle="modal" data-target="#seoAuditModal">Заказать аудит</div></li>
                   </ul>
                 </div>
               </div>
