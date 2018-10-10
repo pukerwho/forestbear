@@ -95,7 +95,7 @@ Template Name: Цены
 								Интернет-магазин
 							</div>
 							<div class="price__info mb-4">
-								<a href="#" class="link-hover-underline" target="_blank">Пример сайта</a>
+								<a href="http://ap3333.ru/" class="link-hover-underline" target="_blank">Пример сайта</a>
 							</div>
 							<div class="price__number">
 								<div class="from-ua">20 000 UAH</div>

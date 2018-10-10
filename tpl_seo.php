@@ -4,7 +4,7 @@ Template Name: SEO
 */
 ?>
 
-<?php get_header(); ?>
+<?php get_template_part( 'seoheader', 'default' ); ?>
 
 <div class="tpl_seo">
 	<div style="background: url(<?php bloginfo('template_url'); ?>/img/bg-bottom.svg) center bottom/105% no-repeat;">
