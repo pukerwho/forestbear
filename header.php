@@ -13,6 +13,7 @@
 
     wp_head();
   ?>
+  <?php echo get_option('google_analytics'); ?>
 </head>
 <body <?php echo body_class(); ?>>
   <!-- <div class="preloader"></div> -->

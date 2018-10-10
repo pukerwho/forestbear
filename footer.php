@@ -87,5 +87,6 @@
         </div>
       </div>
     </div>
+    <?php echo get_option('jivo_site'); ?>
 </body>
 </html>
