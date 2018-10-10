@@ -343,6 +343,8 @@ function add_theme_menu_item() {
     register_setting( 'my-settings-group', 'twitter_link' );
     register_setting( 'my-settings-group', 'google_link' );
     register_setting( 'my-settings-group', 'pinterest_link' );
+    register_setting( 'my-settings-group', 'google_analytics' );
+    register_setting( 'my-settings-group', 'jivo_site' );
 }
 
 add_action("admin_menu", "add_theme_menu_item");
