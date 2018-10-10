@@ -82,7 +82,7 @@
             </button>
           </div>
           <div class="modal-body">
-            <?php echo do_shortcode('[contact-form-7 id="24" title="Заказать seo-аудит"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="126" title="Заказать SEO-Аудит"]'); ?>
           </div>
         </div>
       </div>
