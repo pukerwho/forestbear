@@ -30,7 +30,7 @@
 							Поддержка
 						</div>
 						<div class="footer-link">
-							<li><a href="/faq">Почитайте F.A.Q</a></li>
+							<!-- <li><a href="/faq">Почитайте F.A.Q</a></li> -->
 							<li><a href="/seo">SEO-продвижение</a></li>
 							<li><a href="/rules">Наши правила</a></li>
 						</div>
@@ -64,8 +64,8 @@
 						Все права защищены, не беспокойтесь
 					</div>
 					<div class="social-links">
-						<li><a href="https://www.facebook.com/wemodern/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-						<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li>
+						<!-- <li><a href="https://www.facebook.com/wemodern/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#" target="_blank"><i class="fab fa-instagram"></i></a></li> -->
 					</div>
 				</div>
 			</div>
